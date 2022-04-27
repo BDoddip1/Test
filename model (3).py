@@ -14,4 +14,12 @@ def random_number(start, stop):
 # Define a function to create an API
 # To call, use {"data": {"start": 1, "stop": 100}}
 def my_model(start, stop):
+    print("Successful")
     return dict(a_random_number=random_number(start, stop))
+
+def test(start, stop):
+    print("DONE")
+    return dict(a_random_number=random_number(start, stop))
+
+
+
